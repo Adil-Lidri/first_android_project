@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/displayMessage"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonSayHi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sayHi"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_background"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
